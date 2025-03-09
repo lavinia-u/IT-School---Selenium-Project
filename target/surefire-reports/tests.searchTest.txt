@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: tests.searchTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.897 s <<< FAILURE! - in tests.searchTest
+searchTest1 on searchTest1(tests.searchTest)(tests.searchTest)  Time elapsed: 5.352 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[2]/div[3]/div[2]/product-grid/div/div[1]/div/div[3]/prod-grid-box/div[2]/a/h5"}
+  (Session info: chrome=133.0.6943.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a9263254c4432ef31c68c268ff0ca0a, findElement {using=xpath, value=/html/body/div[4]/div[2]/div[3]/div[2]/product-grid/div/div[1]/div/div[3]/prod-grid-box/div[2]/a/h5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.99, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\Lavi\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51040/devtoo..., se:cdpVersion: 133.0.6943.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a9263254c4432ef31c68c268ff0ca0a
+	at tests.searchTest.searchTest1(searchTest.java:38)
+

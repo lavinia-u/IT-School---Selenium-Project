@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.599 s <<< FAILURE! - in TestSuite
+searchAndAddTest1 on searchAndAddTest1(tests.searchAndAddTest)(tests.searchAndAddTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The public type searchAndAddTest must be defined in its own file
+
+	at tests.searchAndAddTest.<init>(searchAndAdd.java:15)
+
